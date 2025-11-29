@@ -1,6 +1,3 @@
-"""Function for input validation."""
-
-
 def get_valid_input():
     while True:
         user_input = input("Guess a number between 1 and 100: ")

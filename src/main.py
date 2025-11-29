@@ -4,10 +4,9 @@ from logic.hint import hint
 from logic.scorer import Scorer 
 
 
-""" Function to runt the game loop and manage game flow."""
-
-
 def play_round():
+    """ Function to runt the game loop and manage game flow."""
+    
     computer_guess = random.randint(1, 100)
     score = Scorer()
     while True:
