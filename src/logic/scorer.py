@@ -1,3 +1,6 @@
+"""Class to manage scoring system."""
+
+
 class Scorer:
     def __init__(self, initial_score=100):
         self.score = initial_score

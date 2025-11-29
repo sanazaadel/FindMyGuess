@@ -22,6 +22,10 @@ A simple number guessing game where the computer selects a random number between
    pip install -r requirements.txt
    ```
 ## Running the Game
+Before running the main script, ensure that the `PYTHONPATH` environment variable includes the project directory. You can set it using the following command:
+```bash
+export PYTHONPATH=$PYTHONPATH:{pwd}
+```
 To start the game, run the following command in your terminal:
 ```bash
 python src/main.py
