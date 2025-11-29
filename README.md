@@ -7,7 +7,7 @@ A simple number guessing game where the computer selects a random number between
 4. Continue guessing until you find the correct number.
 5. After guessing correctly, you can choose to play again or exit the game.
 ## Requirements
-- Python 3.6 or higher
+- Python 3.7+
 ## Installation
 1. Clone the repository:
    ```bash
@@ -21,6 +21,20 @@ A simple number guessing game where the computer selects a random number between
    ```bash
    pip install -r requirements.txt
    ```
+## Project Structure
+```
+FindMyGuess/
+├── src/
+│   ├── logic/
+│   │   ├── hint.py          # Module for providing hints based on 
+user guesses
+│   │   ├── scorer.py        # Module for managing the scoring system
+│   ├── utils/
+│   │   ├── validity.py      # Module for validating user input
+│   ├── main.py              # Main script to run the game
+├── README.md               # Project documentation
+``` 
+
 ## Running the Game
 Before running the main script, ensure that the `PYTHONPATH` environment variable includes the project directory. You can set it using the following command:
 ```bash

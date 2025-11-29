@@ -1,4 +1,7 @@
-def get_valid_input():
+def get_valid_input()-> int:
+    """Checks if the user input is a valid number between 1 and 100.
+    return: A valid integer input from the user.
+    """
     while True:
         user_input = input("Guess a number between 1 and 100: ")
         if not user_input.isdigit():

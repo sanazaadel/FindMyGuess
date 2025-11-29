@@ -5,7 +5,8 @@ from logic.scorer import Scorer
 
 
 def play_round():
-    """ Function to runt the game loop and manage game flow."""
+    """Runs a single round of the number guessing game.
+    """
     
     computer_guess = random.randint(1, 100)
     score = Scorer()
